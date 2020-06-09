@@ -1,26 +1,63 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import About from '../views/About.vue'
 
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Home Page',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The home page of Larsons website.'
+        },
+        {
+          property: 'og:description',
+          content: 'Larsons home page'
+        }
+      ]
+    }
   },
   {
     path: '/home',
-    name: 'About',
-    component: Home
+    component: Home,
+    meta: {
+      title: 'Home Page',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The home page of Larsons website.'
+        },
+        {
+          property: 'og:description',
+          content: 'Larsons home page'
+        }
+      ]
+    }
   },
   {
     path: '/about',
-    name: 'About',
-    component: () => import( '../views/About.vue')
+    component: About,
+    meta: {
+      title: 'About Page',
+      metaTags: [
+        {
+          name: 'description',
+          content: 'The about page of Larsons website'
+        },
+        {
+          property: 'og:description',
+          content: 'Larsons About page'
+        }
+      ]
+    }
   }
-]
+];
 
 const router = new VueRouter({
   routes

@@ -3,6 +3,7 @@
 ## Vue GUI - Website
 
 1.) Open command prompt
+
 2.) Execute `vue ui`
 
 ## Project setup
