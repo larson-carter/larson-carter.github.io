@@ -1,5 +1,5 @@
 <template>
-<h1> HELLO </h1>
+<h1> FOOTER </h1>
 </template>
 
 <style>
