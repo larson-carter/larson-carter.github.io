@@ -1,5 +1,17 @@
 <template>
-  <div class="about">
-    <h1>This is a projects page</h1>
+  <div class="projects">
+    <ProjectsComponent/>
   </div>
 </template>
+
+<script>
+// @ is an alias to /src
+import ProjectsComponent from '@/components/ProjectsComponent.vue'
+
+export default {
+  name: 'Projects',
+  components: {
+    ProjectsComponent
+  }
+}
+</script>
