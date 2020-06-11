@@ -26,15 +26,15 @@
             >I try to stay active on a variety of websites. However I do miss a bunch of stuff but I try my best!</p>
             <div>
               Click
-              <a href="https://www.linkedin.com/in/larson-carter/">here</a> to go to my LinkedIn.
+              <a href="https://www.linkedin.com/in/larson-carter/" target="_blank">here</a> to go to my LinkedIn.
             </div>
             <div>
               Click
-              <a href="https://twitter.com/larsonc_">here</a> to go to my Twitter.
+              <a href="https://twitter.com/larsonc_" target="_blank">here</a> to go to my Twitter.
             </div>
             <div>
               Click
-              <a href="https://github.com/larson-carter">here</a> to go to my GitHub.
+              <a href="https://github.com/larson-carter" target="_blank">here</a> to go to my GitHub.
             </div>
           </div>
         </div>
