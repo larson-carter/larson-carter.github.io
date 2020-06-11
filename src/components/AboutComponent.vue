@@ -53,6 +53,19 @@
 </template>
 
 <style>
+  .rounded-circle {
+    overflow: hidden;
+    -webkit-transition: transform 0.8s;
+    transition: transform 1s;
+  }
+
+  .rounded-circle:active {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+</style>
+
+<style>
 .team-boxed {
   color: #0080ff;
   background-color: #eef4f7;

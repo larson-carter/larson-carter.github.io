@@ -71,6 +71,19 @@
 </template>
 
 <style>
+  .img-fluid {
+    overflow: hidden;
+    -webkit-transition: transform 0.8s;
+    transition: transform 1s;
+  }
+
+  .img-fluid:active {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+</style>
+
+<style>
 *,
 ::after,
 ::before {
