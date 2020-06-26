@@ -12,10 +12,13 @@
               </a>
             </div>
             <div class="col">
-              <h3 class="name">Oh My Zsh</h3>
+              <h3 class="name">
+                <a href="https://github.com/ohmyzsh/ohmyzsh" target="_blank">Oh My Zsh</a>
+              </h3>
+
               <p
                 class="description"
-              >I am the official software maintainer for Oh My Zsh, I am active in the community and codebase.</p>
+              >I am one of the official software maintainer for Oh My Zsh, I am active in the community and codebase.</p>
             </div>
           </div>
         </div>
@@ -27,7 +30,9 @@
               </a>
             </div>
             <div class="col">
-              <h3 class="name">Node Fetch</h3>
+              <h3 class="name">
+                <a href="https://github.com/node-fetch/node-fetch" target="_blank">Node Fetch</a>
+              </h3>
               <p
                 class="description"
               >I am on the code review team for Node Fetch, in which I do a lot of GitHub issue responses and Pull Request Reviews.</p>
@@ -42,7 +47,9 @@
               </a>
             </div>
             <div class="col">
-              <h3 class="name">ncmpcpp</h3>
+              <h3 class="name">
+                <a href="https://github.com/ncmpcpp/ncmpcpp" target="_blank">NCMPCPP</a>
+              </h3>
               <p
                 class="description"
               >I'm the official maintainer of NCMPCPP, I do a lot of tech support and code review, while also implementing new features.</p>
@@ -57,7 +64,9 @@
               </a>
             </div>
             <div class="col">
-              <h3 class="name">MLH-FELLOWSHIP</h3>
+              <h3 class="name">
+                <a href="https://github.com/MLH-Fellowship" target="_blank">MLH-FELLOWSHIP</a>
+              </h3>
               <p
                 class="description"
               >I participated in this fellowship, I contributed to open source most of the time while also interacting with other fellows.</p>
@@ -71,16 +80,16 @@
 </template>
 
 <style>
-  .img-fluid {
-    overflow: hidden;
-    -webkit-transition: transform 0.8s;
-    transition: transform 1s;
-  }
+.img-fluid {
+  overflow: hidden;
+  -webkit-transition: transform 0.8s;
+  transition: transform 1s;
+}
 
-  .img-fluid:active {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
+.img-fluid:active {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 </style>
 
 <style>
@@ -102,7 +111,7 @@
   }
 }
 @media (min-width: 768px) {
-  .container{
+  .container {
     max-width: 720px;
   }
 }
@@ -112,7 +121,7 @@
   }
 }
 @media (min-width: 1200px) {
-  .container{
+  .container {
     max-width: 1140px;
   }
 }
