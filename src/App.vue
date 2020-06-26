@@ -72,6 +72,7 @@ export default {
 #nav {
   padding: 30px;
   text-align: center;
+  color: 	#FF0000;
 }
 
 #nav a {
@@ -80,6 +81,11 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #4E00FF;
 }
+
+footer {
+  color: #4E00FF;
+}
+
 </style>

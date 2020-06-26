@@ -119,7 +119,7 @@
   font-weight: bold;
   margin-top: 28px;
   margin-bottom: 8px;
-  color: inherit;
+  color: 	#FF0000;
 }
 
 .team-boxed .item .title {
