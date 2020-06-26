@@ -26,23 +26,6 @@ const routes = [
     }
   },
   {
-    path: '/home',
-    component: Home,
-    meta: {
-      title: 'Home Page',
-      metaTags: [
-        {
-          name: 'description',
-          content: 'The home page of Larsons website.'
-        },
-        {
-          property: 'og:description',
-          content: 'Larsons home page'
-        }
-      ]
-    }
-  },
-  {
     path: '/about',
     component: About,
     meta: {
