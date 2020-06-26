@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <HomeComponent msg="Welcome to Larson's webpage"/>
-    <FooterComponent/>
   </div>
 </template>
 
